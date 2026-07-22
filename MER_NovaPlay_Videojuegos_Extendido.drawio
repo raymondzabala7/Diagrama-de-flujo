@@ -1,0 +1,191 @@
+<mxfile host="app.diagrams.net" modified="2026-07-21T00:00:00.000Z" agent="Claude" version="24.0.0" type="device">
+  <diagram name="MER Videojuegos Extendido" id="mer-novaplay-ext">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ===== TITULO ===== -->
+        <mxCell id="title" value="MER - NovaPlay Studios (Notacion Chen)" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="700" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ENTIDADES ===== -->
+        <mxCell id="e_dev" value="Desarrolladores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_vid" value="Videojuegos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_plat" value="Plataformas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_jug" value="Jugadores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="620" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_log" value="Logros" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="620" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_prem" value="Cuenta Premium" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="900" width="180" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ATRIBUTOS: Desarrolladores ===== -->
+        <mxCell id="a_dev_id" value="id_dev" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="111" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_dev_nombre" value="nombre_estudio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="225" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_dev_pais" value="pais" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="339" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ATRIBUTOS: Videojuegos ===== -->
+        <mxCell id="a_vid_id" value="id_juego" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="474" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_vid_titulo" value="titulo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="588" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_vid_genero" value="genero" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="702" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_vid_precio" value="precio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="816" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ATRIBUTOS: Plataformas ===== -->
+        <mxCell id="a_plat_id" value="id_plataforma" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_plat_nombre" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1122" y="170" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ATRIBUTOS: Jugadores (columna izquierda) ===== -->
+        <mxCell id="a_jug_id" value="id_jugador" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="582" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_jug_nombre" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="632" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_jug_correo" value="correo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="682" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ATRIBUTOS: Logros (columna derecha) ===== -->
+        <mxCell id="a_log_id" value="id_logro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="850" y="582" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_log_nombre" value="nombre" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="850" y="632" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_log_puntos" value="puntos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="850" y="682" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ATRIBUTOS: Cuenta Premium ===== -->
+        <mxCell id="a_prem_id" value="id_cuenta" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="111" y="1000" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_prem_fecha" value="fecha_inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1000" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_prem_benef" value="beneficios" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#999999;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="339" y="1000" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ===== RELACIONES (rombos) ===== -->
+        <mxCell id="r_desarrolla" value="desarrolla" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_incluye" value="incluye" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_otorga" value="otorga" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_compra" value="compra" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_desbloquea" value="desbloquea" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r_posee" value="posee" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="760" width="130" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- ===== ATRIBUTOS DE RELACION (N:M) ===== -->
+        <mxCell id="a_inc_fecha" value="fecha_disponible" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="855" y="80" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_com_fecha" value="fecha_compra" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="375" y="540" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_com_monto" value="monto" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="495" y="540" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a_desb_fecha" value="fecha_obtenido" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="435" y="730" width="110" height="36" as="geometry" />
+        </mxCell>
+
+        <!-- ===== CONEXIONES ATRIBUTO - ENTIDAD ===== -->
+        <mxCell id="ae1" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_dev_id" target="e_dev"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae2" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_dev_nombre" target="e_dev"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae3" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_dev_pais" target="e_dev"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="ae4" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_vid_id" target="e_vid"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae5" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_vid_titulo" target="e_vid"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae6" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_vid_genero" target="e_vid"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae7" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_vid_precio" target="e_vid"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="ae8" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_plat_id" target="e_plat"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae9" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_plat_nombre" target="e_plat"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="ae10" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_jug_id" target="e_jug"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae11" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_jug_nombre" target="e_jug"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae12" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_jug_correo" target="e_jug"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="ae13" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_log_id" target="e_log"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae14" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_log_nombre" target="e_log"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae15" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_log_puntos" target="e_log"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="ae16" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_prem_id" target="e_prem"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae17" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_prem_fecha" target="e_prem"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="ae18" style="endArrow=none;startArrow=none;html=1;strokeColor=#999999;" edge="1" parent="1" source="a_prem_benef" target="e_prem"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- ===== CONEXIONES RELACION - ATRIBUTO (N:M) ===== -->
+        <mxCell id="rae1" style="endArrow=none;startArrow=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="r_incluye" target="a_inc_fecha"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="rae2" style="endArrow=none;startArrow=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="r_compra" target="a_com_fecha"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="rae3" style="endArrow=none;startArrow=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="r_compra" target="a_com_monto"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="rae4" style="endArrow=none;startArrow=none;html=1;strokeColor=#d6b656;dashed=1;" edge="1" parent="1" source="r_desbloquea" target="a_desb_fecha"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- ===== CONEXIONES ENTIDAD - RELACION (con cardinalidad) ===== -->
+        <mxCell id="e1" value="1" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="e_dev" target="r_desarrolla"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" value="N" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="r_desarrolla" target="e_vid"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e3" value="N" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="e_vid" target="r_incluye"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" value="M" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="r_incluye" target="e_plat"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e5" value="1" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="e_vid" target="r_otorga"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" value="N" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="r_otorga" target="e_log"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e7" value="N" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="e_jug" target="r_compra"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" value="M" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="r_compra" target="e_vid"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e9" value="N" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="e_jug" target="r_desbloquea"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e10" value="M" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="r_desbloquea" target="e_log"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="e11" value="1" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="e_jug" target="r_posee"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e12" value="1" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="r_posee" target="e_prem"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <!-- ===== LEYENDA ===== -->
+        <mxCell id="legend" value="Rectangulo = Entidad&#10;Rombo = Relacion&#10;Ovalo blanco = Atributo (subrayado = llave primaria)&#10;Ovalo amarillo = Atributo propio de una relacion N:M" style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1050" width="500" height="100" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

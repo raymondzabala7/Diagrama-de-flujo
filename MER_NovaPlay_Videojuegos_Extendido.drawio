@@ -5,11 +5,6 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
 
-        <!-- ===== TITULO ===== -->
-        <mxCell id="title" value="MER - NovaPlay Studios (Notacion Chen)" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="10" width="700" height="40" as="geometry" />
-        </mxCell>
-
         <!-- ===== ENTIDADES ===== -->
         <mxCell id="e_dev" value="Desarrolladores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="260" width="180" height="60" as="geometry" />
@@ -179,11 +174,6 @@
 
         <mxCell id="e11" value="1" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="e_jug" target="r_posee"><mxGeometry relative="1" as="geometry" /></mxCell>
         <mxCell id="e12" value="1" style="endArrow=none;startArrow=none;html=1;fontSize=11;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="r_posee" target="e_prem"><mxGeometry relative="1" as="geometry" /></mxCell>
-
-        <!-- ===== LEYENDA ===== -->
-        <mxCell id="legend" value="Rectangulo = Entidad&#10;Rombo = Relacion&#10;Ovalo blanco = Atributo (subrayado = llave primaria)&#10;Ovalo amarillo = Atributo propio de una relacion N:M" style="text;html=1;align=left;verticalAlign=top;fontSize=12;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1050" width="500" height="100" as="geometry" />
-        </mxCell>
 
       </root>
     </mxGraphModel>
